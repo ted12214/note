@@ -5,7 +5,7 @@
 > 单词补全：Alt+/  
 > 打开外部Java文档：Shift+F2  
 > 显示搜索对话框：Ctrl+H  
-> 快速Outline：Ctrl+O  
+> 快速Outline：Ctrl+O 
 > 打开资源：Ctrl+Shift+R  
 > 打开类型：Ctrl+Shift+T  
 > 显示重构菜单：Alt+Shift+T     
@@ -64,24 +64,19 @@
 > F12：激活编辑器  
 > Alt+Enter 显示当前选择资源(工程,or 文件 or文件)的属性 
 > Ctrl+J 正向增量查找(按下Ctrl+J后,你所输入的每个字母编辑器都提供快速匹配定位到某个单词,如果没有,则在stutes line中显示没有找到了,查一个单词时,特别实用,这个功能Idea两年前就有了)  
+> 全局 后退历史记录 Alt+←   
+> 全局 前进历史记录 Alt+→   
+> 全局 转至匹配的括号 Ctrl+Shift+P  
 
 ================================================================================
     
     全局 打开声明 F3 
     全局 打开外部javadoc Shift+F2 
     全局 打开资源 Ctrl+Shift+R 
-    全局 后退历史记录 Alt+← 
-    全局 前进历史记录 Alt+→ 
     全局 上一个 Ctrl+, 
     全局 下一个 Ctrl+. 
     Java编辑器 显示大纲 Ctrl+O 
     全局 在层次结构中打开类型 Ctrl+Shift+H 
-    全局 转至匹配的括号 Ctrl+Shift+P 
-    全局 转至上一个编辑位置 Ctrl+Q 
-    Java编辑器 转至上一个成员 Ctrl+Shift+↑ 
-    Java编辑器 转至下一个成员 Ctrl+Shift+↓ 
-    文本编辑器 转至行 Ctrl+L 
-
      
     搜索
     作用域 功能 快捷键 
