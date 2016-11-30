@@ -18,7 +18,6 @@
 > 跳到某行：Ctrl+L  
 > 上下滚屏：Ctrl+Up/Down  
 > 上一个/下一个成员（成员对象或成员函数）：Ctrl+Shift+Up/Down  
-> 快速Outline：Ctrl+O   
 > 在workspace中搜索选中元素的声明：Ctrl+G  
 > 在workspace中搜索选中的文本：Ctrl+Alt+G  
 > 在workspace中搜索选中元素的引用：Ctrl+Shift+G  
