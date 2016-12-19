@@ -1,0 +1,1 @@
+删除文件 [workspace]/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
