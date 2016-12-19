@@ -20,7 +20,7 @@ Ctrl+N：新建窗口
 Ctrl+K+B：开关侧栏
 Ctrl+Shift+M：选中当前括号内容，重复可选着括号本身
 Ctrl+F2：设置/删除标记
-Ctrl+/：注释当前行
+Ctrl+/：注释当前行z
 Ctrl+Shift+/：当前位置插入注释
 Ctrl+Alt+/：块注释，并Focus到首行，写注释说明用的
 Ctrl+Shift+A：选择当前标签前后，修改标签用的
