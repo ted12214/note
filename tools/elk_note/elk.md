@@ -1,3 +1,5 @@
+[TOC]
+
 #elk 相关资料
 
 * Elasticsearch是个开源分布式搜索引擎，它的特点有：分布式，零配置，自动发现，索引自动分片，索引副本机制，restful风格接口，多数据源，自动搜索负载等。
@@ -73,7 +75,7 @@ output {
 ```
 #### 读取文件（file)
 
-**读取配置文件示例**
+*配置示例*
 
 ```JSON
 input
@@ -84,14 +86,13 @@ input
     }
 }
 ```
-**配置参数**
+*配置参数*
 
 * discover_interval
   logstash 每隔多久去检查一次被监听的 path 下是否有新文件。默认值是 15 秒。
 * exclude
   不想被监听的文件可以排除出去，这里跟 path 一样支持 glob 展开。
 * start_position
-
   logstash 从什么位置开始读取文件数据，默认是结束位置，也就是说 logstash 进程会以类似 tail -F 的形式运行。如果你是要导入原有数据，把这个设定改成 "beginning"，logstash 进程就从头开始读取，有点类似 cat，但是读到最后一行不会终止，而是继续变成 tail -F。
 
 #### 读取网络数据(TCP)
@@ -109,7 +110,7 @@ input {
 ```
 #### 读取Redis数据
 
-*示例数据*
+*配置示例*
 ```JSON
 input {
     redis {
@@ -184,7 +185,7 @@ filter {
     }
 }
 ```
-输出的数据
+*输出的数据*
 ```JSON
 filter {
     grok {
@@ -208,7 +209,7 @@ filter {
 }
 ```
 
-输出结果
+*输出结果*
 
 ```JSON
 {
