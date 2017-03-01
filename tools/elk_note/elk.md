@@ -242,3 +242,18 @@ output {
     }
 }
 ```
+
+
+TODO:
+
+Listing 3.2 Trying to change an existing field type from string to long fails
+时间类型
+Use a predefined date format. For example, the date format parses dates as 2013-
+02-25 . Many predefined formats are available, and you can see them all here:
+www.elastic.co/guide/reference/mapping/date-format/
+Specify your own custom format. You can specify a pattern for timestamps to follow.
+For example, specifying MMM YYYY parses dates as Jul 2001 .
+
+
+_source
+_all
