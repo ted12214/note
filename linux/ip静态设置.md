@@ -35,6 +35,14 @@ Ubuntu的网络配置文件是：/etc/network/interfaces
     #broadcast 192.168.3.255 
     # 配置dns 多个使用空格分开
     dnd_ nameservers 114.114.114.114
+
+auto eth0
+iface eth0 inet static
+address 10.1.22.21
+gateway 10.1.22.254
+netmask 255.255.255.0
+dns-nameservers 219.141.136.10 219.141.140.10
+
 ```
 
 别忘记生效
